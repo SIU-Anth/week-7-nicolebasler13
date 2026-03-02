@@ -133,6 +133,7 @@ Q2 <- tibble(columns_bound$Ware,columns_bound$VesType)
  #just a test on only Crocks or Jars
  #now I will test wares
  chisq.test(table(Q2$`columns_bound$Ware`))
+ #just doing this for a retry on the push.
 
 
 
